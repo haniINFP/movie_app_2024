@@ -11,11 +11,11 @@ function App() {
   <HashRouter>
     <Navigation />
     <Routes>
-      <Route path="/" Component = {Home} />
+      <Route path="/" exact ={true} Component = {Home} />
       <Route path = "/about" Component={About} />
       <Route path="/movie-detail" Component={Detail} />
         </Routes>
-        </HashRouter>
+  </HashRouter>
 )}
 
 export default App;
